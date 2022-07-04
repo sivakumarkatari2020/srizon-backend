@@ -1,0 +1,16 @@
+runtime: nodejs16 # or another supported version
+
+instance_class: F2
+
+env_variables:
+  NODE_ENV="production"
+  PORT="8080"
+  HOST="127.0.0.1"
+  HOST_URL="http://localhost:8080"
+  SQL_USER="sqlServer"
+  SQL_PASSWORD="Admin@srizon1"
+  SQL_DATABASE="db_srizon"
+  SQL_SERVER="34.122.183.198"
+  ENCRYPT="true"
+  KEY_ID="rzp_test_4QxJ2ZJcCKwl8I"
+  KEY_SECRECT="M9NmsM6MelTqHxmSashsnmDo"
